@@ -1,0 +1,184 @@
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 70%;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+.someSection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    h2 {
+        color: #222533;
+        font-family: Poppins;
+        font-weight: 600;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        position: relative;
+        font-size: 30px;
+    }
+
+    span {
+        color: #333;
+        display: block;
+        font-family: Roboto, Arial, sans-serif;
+        font-size: 16px;
+        font-weight: 300;
+        margin-top: 5px;
+    }
+}
+
+.title h2::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 66px;
+    height: 3px;
+    background-color: #ffce55;
+    left: 50%;
+    margin-left: -33px;
+}
+
+
+.someimage {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: url('https://149842022.v2.pressablecdn.com/wp-content/uploads/sites/65/2017/09/teammembru_burned-92x92.jpg');
+    background-position: center;
+    background-size: cover;
+    margin-top: 60px;
+}
+
+.word {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.word p {
+    font-size: 18px !important;
+    color: #363636;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.word span {
+    color: #f2c351;
+    font-size: 16px;
+    font-style: normal;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.latestNews {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.latestTitle {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+
+    h2 {
+        color: #222533;
+        font-family: Poppins;
+        font-weight: 600;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        position: relative;
+        font-size: 30px;
+    }
+
+    span {
+        color: #333;
+        display: block;
+        font-family: Roboto, Arial, sans-serif;
+        font-size: 16px;
+        font-weight: 300;
+        margin-top: 5px;
+    }
+}
+
+.latestTitle h2::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 66px;
+    height: 3px;
+    background-color: #ffce55;
+    left: 50%;
+    margin-left: -33px;
+}
+
+
+.imageBox {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.imageDiv {
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0px;
+
+    img {
+        width: 90%;
+    }
+
+    span {
+        color: #f2c351;
+        font-size: 14px;
+        font-weight: 400;
+        font-family: Roboto;
+        margin-top: 10px;
+    }
+
+    h2 {
+        font-size: 30px;
+        font-weight: 400;
+        color: #333;
+        display: block;
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 40px;
+        margin-top: 15px;
+        font-family: Poppins;
+    }
+
+    p {
+        padding: 0 10px;
+        font-size: 15px !important;
+        line-height: 27px !important;
+        font-family: Roboto;
+        color: #777;
+        text-align: center;
+    }
+}

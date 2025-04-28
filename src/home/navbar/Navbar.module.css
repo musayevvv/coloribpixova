@@ -1,0 +1,52 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.left {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.right {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.pages {
+    display: none;
+}
+
+.hamburger {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.hamburger:hover .pages {
+    display: block !important;
+    gap: 20px;
+    font-size: 15px;
+}
+
+.hamburger:hover {
+    color: red;
+}
+
+
+.hamburger:hover{
+    .pages{
+        display: flex !important;
+        gap: 20px;
+        font-size: 15px;
+    }
+}
